@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="shortcut icon" href="./images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCE group</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="./images/logo.png" alt="LCE logo" id="logo">
+            </div>
+            <h1>Low Complexity in Evolution</h1>
+        </header>
+        <div class="main-content">
+            <nav>
+                <ul>
+                    <li><a href="#home" onclick="showSection('home')">Home</a></li>
+                    <li><a href="#research" onclick="showSection('research')">Research Interests</a></li>
+                    <li><a href="#publications" onclick="showSection('publications')">Publications</a></li>
+                    <li><a href="#lab-members" onclick="showSection('lab-members')">Lab Members</a></li>
+                    <li><a href="#where-are-we" onclick="showSection('where-are-we')">Where are we?</a></li>
+                    <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+                    <li><a href="#personal" onclick="showSection('personal')">Personal homepage</a></li>
+                </ul>
+            </nav>
+            <main>
+                <section id="home" class="content-section">
+                   	<div class="banner"><img src="./images/banner.png" alt="banner" id="banner"></div>
+                    <h2>Welcome to the Low Complexity in Evolution research group</h2>
+                    
+                    <p>We are a group established at the Pablo de Olavide University (Seville, Spain) since late 2024, as part of the <a href="http://www.bioinfocabd.upo.es/" target="_blank">UPOBioinfo Group</a>.
+                    <p>At the moment, the group is maintained with funds obtained from the Spanish government in the Beatriz Galindo Fellowship call 2023 and the Proyecto de Generación del Conocimiento 2024 call.<p>
+                    <p>Send me an <a href="mailto:pmiemun@upo.es">email</a> if you are interested in working in the group or collaborate with us.<p>Internships, BSc. theses/projects and MSc. theses/projects are always welcome :)<p>
+                    <p><p><h3>News</h3>
+                    <ul>
+                    <li>January 2026: Nerea Blanco has started the first PhD of the LCE group.</li>
+                    <li>July 2025: Our project "PolyX at the Evolutionary Scale: Definition, Functional Roles, and Homorepeat Interplay (PolyX-Evo)" has been proposed for funding in the last Proyecto de Generación del Conocimiento 2024 call.</li>
+                    <li>March 2025: Dr. Mier was appointed as Researcher at the Andalusian Centre for Developmental Biology CABD (Seville, Spain).</li>
+                    <li>December 2024: We just moved to our new office in the Andalusian Centre for Developmental Biology CABD (Seville, Spain).</li>
+                    </ul>
+										<br>
+                   	<div class="banner"><img src="./images/banner2.png" alt="banner" id="banner"></div>
+                </section>
+
+                <section id="research" class="content-section" style="display:none;">
+                <div class="banner"><img src="./images/banner.png" alt="banner" id="banner"></div>
+                <h2>Research Interests</h2>
+                    
+                <div class="card-container2">
+        						<div class="card_fig">
+    									  <div class="image-wrapper" onclick="showFullSizeImage1()">
+							            <img id="thumbnail1" src="./images/fig1.png" alt="Fig 1" class="fig">
+							            <div class="overlay"><span class="click-to-expand">Click to Expand</span></div>
+											  </div>
+							          <div class="fig-info">
+						                <h2>Low Complexity Regions (LCRs)</h2>
+						            		<p><i>LCRs are proteins regions where the frequency distribution of amino acids deviates from the common amino acid usage. Residues in LCRs have been estimated to represent 20% and 8% of all known sequences of eukaryotes and non-eukaryotes, respectively. In the definition of LCRs, multiple concepts related to sequence composition, periodicity and structure have been used. Regarding amino acid composition, while there is a general notion that LCRs in proteins should have an excess of one or a few types of amino acid residues, there is no consensus about which metrics are the most appropriate. Additionally, the concept of LCR is intermingled with the concept of sequence repeats. Repeats are inevitably associated with LCRs, since shorter repeats result in regions with lower amino acid diversity.</i></p>
+						            		<p><p>Figure and text adapted from Mier et al. (2020) Brief Bioinform 21, 458-472. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/30698641/" target="_blank">30698641</a>.
+					          		</div>
+				       			</div>
+           					<div id="imageModal1" class="modal">
+	    								<span class="close" onclick="closeModal1()">&times;</span>
+  	  								<img class="modal-content" id="fullImage1">
+  									</div>
+           						
+        						<div class="card_fig">
+    									  <div class="image-wrapper" onclick="showFullSizeImage2()">
+							            <img id="thumbnail2" src="./images/fig2.png" alt="Fig 2" class="fig">
+							            <div class="overlay"><span class="click-to-expand">Click to Expand</span></div>
+											  </div>
+									    	<div class="fig-info">
+						                <h2>Homorepeats</h2>
+						                <p><i>Homorepeats, polyX or amino acid repeats, are protein motifs defined as consecutive runs of a single residue. They are the simplest low complexity region and rely on a highly localized abundance of an amino acid. Any amino acid can form them, although some polyX are much more abundant than others (which also depends on the species taxonomy). They are associated with multiple functionalities, from aiding protein localization to mediating protein–protein interactions. Many homorepeats have not been functionally characterized yet, despite their high abundance in eukaryotes (15% of proteins contain at least one of them). This makes them an interesting protein motif for a post-sequencing step in terms of proteome annotation.</i></p>
+						                <p>Text from Mier and Andrade-Navarro (2022) Genes 13, 758. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/35627143/" target="_blank">35627143</a>.
+						                <p><p>Figure from Mier et al. (2017) Proteins 85, 709-719. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/28097686/" target="_blank">28097686</a>.
+					            	</div>
+				       			</div>
+				       			<div id="imageModal2" class="modal">
+	    								<span class="close" onclick="closeModal2()">&times;</span>
+  	  								<img class="modal-content" id="fullImage2">
+  									</div>
+				       					 
+				       			<div class="card_fig">
+    									  <div class="image-wrapper" onclick="showFullSizeImage3()">
+							            <img id="thumbnail3" src="./images/fig3.png" alt="Fig 3" class="fig">
+							            <div class="overlay"><span class="click-to-expand">Click to Expand</span></div>
+											  </div>
+						            <div class="fig-info">
+						                <h2>Evolution</h2>
+						                <p><i>Orthologs and paralogs are two fundamentally different types of homologous genes that evolved, respectively, by vertical descent from a single ancestral gene and by duplication. Orthology and paralogy are key concepts of evolutionary genomics. A clear distinction between orthologs and paralogs is critical for the construction of a robust evolutionary classification of genes and reliable functional annotation of newly sequenced genomes. Genome comparisons show that orthologous relationships with genes from taxonomically distant species can be established for the majority of the genes from each sequenced genome.</i></p>
+						                <p>Text from Koonin (2005) Annu Rev Genet 39, 309-338. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/16285863/" target="_blank">16285863</a>.
+						                <p><p>Figure from the thesis "Desarrollo de herramientas y protocolos bioinformáticos para la búsqueda de proteínas ortólogas y su aplicación en análisis evolutivos" (Teseo: <a href="https://www.educacion.gob.es/teseo/imprimirFichaConsulta.do?idFicha=371694#" target="_blank">371694</a>).
+					            	</div>
+				       			</div>
+				       					 
+				       		 	<div id="imageModal3" class="modal">
+	    								<span class="close" onclick="closeModal3()">&times;</span>
+  	  								<img class="modal-content" id="fullImage3">
+  									</div>
+  							</div>
+               	<div class="banner"><img src="./images/banner2.png" alt="banner" id="banner"></div>
+                </section>
+
+
+                <section id="publications" class="content-section" style="display:none;">
+                   	<div class="banner"><img src="./images/banner.png" alt="banner" id="banner"></div>                
+                    <h2>LCE Publications</h2>
+                    <ul>
+<li>Vagiona AC, <b>Mier P</b>, Andrade-Navarro MA*. Unraveling cooperative and competitive interactions within protein triplets in the human interactome. Scientific Reports (2025). <b>In press</b>.</li>
+<li>Andrade-Navarro MA*, <b>Mier P</b>. Xsurvey: web tool to query the set of homotepears of all reference proteomes. IEEE/ACM Trans Comput Biol Bioinform (2025). <a href="https://pubmed.ncbi.nlm.nih.gov/40811305/" target="_blank">PMID:40811305</a>.</li>
+<li><b>Mier P</b>*, Andrade-Navarro MA, Morett E*. Apparent differences between human and chimp proteomes are reduced when considering human population: Human specific variants are enriched in disordered and compositionally biased regions. PLoS One (2025).<a href="https://pubmed.ncbi.nlm.nih.gov/40743127/" target="_blank">PMID:40743127</a>.</li>
+<li>González-Delgado J, <b>Mier P</b>, Bernadó P, Neuvial P, Cortés J*. The dependence of the amino acid backbone conformation on the translated synonymous codon is not statistically significant. Proc Natl Acad Sci U S A 122(2025), e2503264122. <a href="https://pubmed.ncbi.nlm.nih.gov/40512784/" target="_blank">PMID:40512784</a>.</li>
+<li>Moreno-Rodríguez A, Pérez-Pulido AJ, <b>Mier P</b>*. Evolutionary perspective of the CAG/CAA interplay coding for pure polyglutamine stretches in proteins. NAR Genom Bioinform 7(2025), lqaf075. <a href="https://pubmed.ncbi.nlm.nih.gov/40491971/" target="_blank">PMID:40491971</a>.</li>
+                    </ul>
+                    <h2>Selected Past Publications</h2>
+                    <ul>
+<li>Schumbera E+, <b>Mier P+</b>, Andrade-Navarro MA*. Phase separating Rho: a widespread regulatory function of disordered regions in proteins revealed in bacteria. Signal Transduction and Targeted Therapy 8(2023), 253. <a href="https://pubmed.ncbi.nlm.nih.gov/37344523/" target="_blank">PMID:37344523</a></i>.</li>
+<li>Jarnot P, Ziemska-Legiecka J, Dobson L, Merski M, <b>Mier P</b>, Andrade-Navarro M.A., Hancock J.M., Dosztanyi Z, Paladin L, Necci M, Piovesan D, Tosatto S.C.E., Promponas V.J., Grynberg M., Gruca A*. PlaToLoCo: the first web meta-server for visualization and annotation of low complexity regions in proteins. Nucleic Acids Res 48(2020), W77-W84. <a href="https://pubmed.ncbi.nlm.nih.gov/32421769/" target="_blank">PMID:32421769</a>.</li>
+<li>Urbanek A, Popovic K, Morató A, Estaña A, Elena-Real CA, <b>Mier P</b>, Fournet A, Allemand F, Delbecq S, Andrade-Navarro MA, Cortés J, Sibille N, Bernadó P*. Flanking Regions Determine the Structure of the Poly-Glutamine in Huntingtin through Mechanisms Common among Glutamine-Rich Human Proteins. Structure 28(2020), 733-746. <a href="https://pubmed.ncbi.nlm.nih.gov/32402249/" target="_blank">PMID:32402249</a>.</li>
+<li><b>Mier P*</b>, Paladin L, Tamana S, Petrosian S, Hajdu-Soltész B, Urbanek A, Gruca A, Plewczynski D, Grynberg M,  Bernadó P, Gáspári Z, Ouzounis C, Promponas VJ, Kajava AV, Hancock JM, Tosatto SCE, Dosztanyi Z, Andrade-Navarro MA. Disentangling the complexity of low complexity proteins. Brief Bioinform 21(2020), 458-472. <a href="https://pubmed.ncbi.nlm.nih.gov/30698641/" target="_blank">PMID:30698641</a>.</li>
+<li>Tørresen OK, Star B, <b>Mier P</b>, Andrade-Navarro MA, Bateman A, Jarnot P, Gruca A, Grynberg M, Kajava AV, Promponas VJ, Anisimova M, Jakobsen KS, Linke D*. Tandem repeats lead to sequence assembly errors and impose multi-level challenges for genome and protein databases. Nucleic Acids Res 47(2019), 10994-11006. <a href="https://pubmed.ncbi.nlm.nih.gov/31584084/" target="_blank">PMID:31584084</a>.</li>
+<li>Totzeck F, Andrade-Navarro MA, <b>Mier P*</b>. The Protein Structure Context of PolyQ Regions. PLoS ONE 12(2017): e0170801. <a href="https://pubmed.ncbi.nlm.nih.gov/28125688/" target="_blank">PMID:28125688</a>.</li>
+                    </ul>
+ 								<br> 
+                <div class="banner"><img src="./images/banner2.png" alt="banner" id="banner"></div>                    
+                </section>
+               
+                
+                <section id="lab-members" class="content-section" style="display:none;">
+                   	<div class="banner"><img src="./images/banner.png" alt="banner" id="banner"></div>                
+                    <h2>Lab Members</h2>
+											<div class="card-container">
+        								<div class="card">
+							            <img src="./images/member1.jpg" alt="Member 1" class="member-photo">
+							            <div class="member-info">
+						                <h2>Dr. Pablo Mier</h2>
+						                <p><strong>Education:</strong> Ph.D. in Bioinformatics in Biotechnology and Biomedicine, Universidad Pablo de Olavide (Seville, Spain)</p>
+						                <p><strong>Research Interests:</strong> Low Complexity Regions, Homorepeats, Molecular Biology, Protein-Protein Interactions, ...</p>
+						                <p><strong>Email:</strong> pmiemun@upo.es, pmiemun@gmail.com, munoz@uni-mainz.de</p>
+						                <p><strong>Previous positions:</strong> Postdoctoral researcher in <a href="https://www.uni-mainz.de/" target="_blank">JGU</a> (Mainz, Germany), in the <a href="https://cbdm.uni-mainz.de/" target="_blank">CBDM group</a> (2015-2024)</p>
+						               <p><strong>Links:</strong> <a href="https://scholar.google.de/citations?user=_fpBDrAAAAAJ&hl=en" target="_blank"><img src="./images/scholar.jpg" alt="image" width="30" height="30"></a>&emsp;<a itemprop="sameAs" content="https://orcid.org/0000-0003-3663-2352" href="https://orcid.org/0000-0003-3663-2352" target="orcid.widget"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD icon"></a>&emsp;<a href="https://www.scopus.com/authid/detail.uri?authorId=54581324500" target="_blank"><img src="./images/scopus.png" alt="image" width="20" height="20"></a>&emsp;<a href="https://sciprofiles.com/profile/1236997" target="_blank"><img src="./images/sciprofiles.png" alt="image" width="20" height="20"></a>&emsp;<span id="badgeCont22"></span>
+						               </p>
+						               
+					            		</div>
+				       					 </div>
+        							
+        							<div class="card">
+            							<img src="./images/member3.jpg" alt="Member 2" class="member-photo">
+            							<div class="member-info">
+                						<h2>Nerea Blanco</h2>
+								<p><strong>Role:</strong> PhD student
+								<p><strong>Education:</strong> M.Sc. in Healthcare Biotechnology, Universidad Pablo de Olavide (Seville, Spain)</p>
+						                <p><strong>Email:</strong> nblapiz@alu.upo.es</p>
+            							</div>
+       								</div>
+       									 
+       								<div class="card">
+            							<img src="./images/member2.jpg" alt="Member 2" class="member-photo">
+            							<div class="member-info">
+                						<h2>?</h2>
+                						<p><strong>Role:</strong>?</p>
+            							</div>
+       								</div>	 
+       									 
+       									 Internships, BSc. theses/projects and MSc. theses/projects are always welcome :)<p><p>
+       									 Previous group members: Alberto Pérez Royo (Master student, Dec 2024 - Jun 2025).
+       									 
+										</div>	
+								<br> 
+               	<div class="banner"><img src="./images/banner2.png" alt="banner" id="banner"></div>									
+                </section>
+
+                <section id="where-are-we" class="content-section" style="display:none;">
+                   	<div class="banner"><img src="./images/banner.png" alt="banner" id="banner"></div>
+                    <h2>Where are we?</h2>
+										<p>We are located at the Pablo de Olavide University (Seville, Spain).<br>You can find us in the building of the Andalusian Centre for Developmental Biology (CABD); see the map below:</p>
+                <div class="map-container">     
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.14493561817!2d-5.940908888062178!3d37.35919873587285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd127f1b91cc28c9%3A0x758d3e60c8f8daa7!2sAndalusian%20Center%20for%20Development%20Biology%20CABD!5e1!3m2!1sen!2sus!4v1718872396516!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+                </div>
+                
+                <h2>How to get here</h2>
+                <p>To get to the Pablo de Olavide University in Seville, you can follow these directions depending on your mode of transportation:
+								<h3>By Car</h3>
+									From the city center:
+										<ul>
+	        						<li>Take Avenida de la Palmera heading south.</li>
+  	     							<li>Continue onto SE-30 highway.</li>
+  	      						<li>Take exit 9 towards Pablo de Olavide University.</li>
+										</ul>								
+									From other locations:
+										<ul>
+											<li>Use the SE-30 highway and follow signs for "Universidad Pablo de Olavide".</li>
+	        						<li>Take exit 9.</li>
+										</ul>
+								<h3>By Public Transport</h3>
+									Metro:
+									<ul>
+        						<li>Metro line 1 has a stop at Pablo de Olavide University.</li>
+        						<li>From the city center, you can take the metro from any station on line 1 and get off at the "Universidad Pablo de Olavide" station.</li>
+									</ul>
+									Bus:
+        					<ul>
+        						<li>Several bus lines serve the university. You can check the local bus schedules for the best route from your location.</li>
+        					</ul>	
+                <br>
+               	<div class="banner"><img src="./images/banner2.png" alt="banner" id="banner"></div>               
+                </section>
+                
+                
+                <section id="contact" class="content-section" style="display:none;">
+                   	<div class="banner"><img src="./images/banner.png" alt="banner" id="banner"></div>
+                    <h2>Contact</h2>
+										<ul>
+											<li>Email: <a href="mailto:pmiemun@upo.es">pmiemun@upo.es</a></li>
+											<li>Address: Centro Andaluz de Biologia del Desarrollo, Ctra/ Utrera Km. 1, 41013 Sevilla</li>										
+										</ul>
+										<br>
+                		<div class="banner"><img src="./images/banner2.png" alt="banner" id="banner"></div>               
+                </section>
+                
+                <section id="personal" class="content-section" style="display:none;">
+                   	<div class="banner"><img src="./images/banner.png" alt="banner" id="banner"></div>
+							      <img src="./images/member1.jpg" alt="Member 1" class="member-photo">
+
+<table align="center"><tr>
+	<td><a href="https://scholar.google.de/citations?user=_fpBDrAAAAAJ&hl=en" target="_blank"> <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="./images/scholar.jpg" alt="image" width="30" height="30"></a></td>
+	<td>
+		<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-3663-2352" href="https://orcid.org/0000-0003-3663-2352" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a>
+		</div>
+	</td>
+	<td><a href="https://www.scopus.com/authid/detail.uri?authorId=54581324500" target="_blank"> <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="./images/scopus.png" alt="image" width="20" height="20"></a></td>
+	<td><a href="https://sciprofiles.com/profile/1236997" target="_blank"> <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="./images/sciprofiles.png" alt="image" width="20" height="20"></a></td>
+</tr></table>
+
+<h3>Tools & Repositories</h3>
+<table><tr><td valign="top">
+	Developed by me:
+	<ul>
+		<li><a href="http://cbdm-01.zdv.uni-mainz.de/~munoz/xsurvey/" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>Xsurvey</a></li>
+		<li><a href="http://cbdm-01.zdv.uni-mainz.de/~munoz/pSTR/" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>pSTR</a></li>
+		<li><a href="http://cbdm-01.zdv.uni-mainz.de/~munoz/polyxy/" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>XYs</a></li>
+		<li><a href="http://cbdm-01.zdv.uni-mainz.de/~munoz/polyx2/" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>PolyX2</a></li>
+		<li><a href="http://cbdm-01.zdv.uni-mainz.de/~munoz/lct/" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>Low Complexity Triangle</a></li>
+		<li><a href="http://cbdm-01.zdv.uni-mainz.de/~munoz/sQanner/" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>sQanner</a></li>
+		<li><a href="http://cbdm-01.zdv.uni-mainz.de/~munoz/maga/" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>MAGA</a></li>
+		<li><a href="http://cbdm-01.zdv.uni-mainz.de/~munoz/uep/" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>Towards completion of the Earth's proteome</a></li>
+		<li><a href="http://cbdm-01.zdv.uni-mainz.de/~munoz/ppt/" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>ProteinPathTracker</a></li>
+		<li><a href="http://cbdm-01.zdv.uni-mainz.de/~munoz/traitpedia/" target="_blank"><i class="fas fa-bookmark fa-fw 	mr-2"></i>Traitpedia</a></li>
+		<li><a href="http://cbdm-01.zdv.uni-mainz.de/~munoz/polyx/" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>dAPE</a></li>
+		<li><a href="http://cbdm-01.zdv.uni-mainz.de/~munoz/RACCOON/" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>RACCOON</a></li>
+		<li><a href="http://cbdm-01.zdv.uni-mainz.de/~munoz/polyq/" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>The Protein Structure Context of PolyQ Regions</a></li>
+		<li><a href="http://cbdm-01.zdv.uni-mainz.de/~munoz/CABRA/" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>CABRA</a></a></li>
+		<li><a href="http://cbdm-01.zdv.uni-mainz.de/~munoz/fh2/" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>FastaHerder2</a></li>
+		<li><a href="http://www.bioinfocabd.upo.es/cgi-bin/orthofind/ortholog2.cgi" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>orthoFind</a></li>
+	</ul>
+</td><td valign="top">
+	<br>In which I participated:
+	<ul>
+		<li><a href="http://cbdm-01.zdv.uni-mainz.de/~munoz/rep/" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>REP2</a></li>
+		<li><a href="http://platoloco.aei.polsl.pl/#!/query" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>PlaToLoCo</a></li>
+		<li><a href="http://cbdm-01.zdv.uni-mainz.de/~munoz/res/" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>REpeatability Scanner</a></li>
+		<li><a href="http://cbdm-01.zdv.uni-mainz.de/~galanisl/gapi/" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>GAPI</a></li>
+		<li><a href="http://www.bioinfocabd.upo.es/anablast/" target="_blank"><i class="fas fa-bookmark fa-fw mr-2"></i>AnABlast</a></li>
+	</ul>
+</td></tr></table>
+
+<h3>Publications</h3>
+<table>
+	<tr><td> <i>Overview</i> </td> <td></td><td> </td></tr>
+	<tr><td> Published </td> <td></td><td> 59 </td></tr> 
+	<tr><td> (As first author) </td> <td></td><td> 29 (+2 with same contribution as first author) </td></tr>
+	<tr><td> (As last author) </td> <td></td><td> 4 </td></tr> 
+	<tr><td> (As corresponding author) </td> <td></td><td> 30 </td></tr> 
+</table><br>   
+						    
+<ol>
+<b>2025</b><br><br>
+<li>Vagiona AC, <b>Mier P</b>, Andrade-Navarro MA*. Unraveling cooperative and competitive interactions within protein triplets in the human interactome. Scientific Reports (2025). <b>In press</b>.</li>
+<li>Andrade-Navarro MA*, <b>Mier P</b>. Xsurvey: web tool to query the set of homotepears of all reference proteomes. IEEE/ACM Trans Comput Biol Bioinform (2025). <a href="https://pubmed.ncbi.nlm.nih.gov/40811305/" target="_blank">PMID:40811305</a>.</li>
+<li><b>Mier P</b>*, Andrade-Navarro MA, Morett E*. Apparent differences between human and chimp proteomes are reduced when considering human population: Human specific variants are enriched in disordered and compositionally biased regions. PLoS One (2025).<a href="https://pubmed.ncbi.nlm.nih.gov/40743127/" target="_blank">PMID:40743127</a>.</li>
+<li>González-Delgado J, <b>Mier P</b>, Bernadó P, Neuvial P, Cortés J*. The dependence of the amino acid backbone conformation on the translated synonymous codon is not statistically significant. Proc Natl Acad Sci U S A 122(2025), e2503264122. <a href="https://pubmed.ncbi.nlm.nih.gov/40512784/" target="_blank">PMID:40512784</a>.</li>
+<li>Moreno-Rodríguez A, Pérez-Pulido AJ, <b>Mier P</b>*. Evolutionary perspective of the CAG/CAA interplay coding for pure polyglutamine stretches in proteins. NAR Genom Bioinform 7(2025), lqaf075. <a href="https://pubmed.ncbi.nlm.nih.gov/40491971/" target="_blank">PMID:40491971</a>.</li>
+<br><b>2024</b><br><br>
+<li><b>Mier P*</b>, Andrade-Navarro MA. Predicting the involvement of polyQ- and polyA in protein-protein interactions by their amino acid context. Heliyon (2024). <a href="https://pubmed.ncbi.nlm.nih.gov/39323775/" target="_blank">PMID:39323775</a>.</li>
+<li><b>Mier P*</b>, Andrade-Navarro MA, Morett E. Homorepeat variability within the human population. NAR Genom Bioinform 6(2024), lqae053. <a href="https://pubmed.ncbi.nlm.nih.gov/38774515/" target="_blank">PMID:38774515</a>.</li>
+<li>Mac Donagh J, Marchesini A, Spiga A, Fallico MJ, Arrias PN, Monzon AM, Vagiona A-C, Goncalves-Kulik M, <b>Mier P</b>, Andrade-Navarro MA. Structured tandem repeats in protein interactions. International Journal of Molecular Sciences 25(2024), 2994. <a href="https://pubmed.ncbi.nlm.nih.gov/38474241/" target="_blank">PMID:38474241</a>.</li>
+
+<br><b>2023</b><br><br>
+<li><b>Mier P*</b>, Andrade-Navarro MA. The nucleotide landscape of polyXY regions. Comput Struct Biotechnol J 21(2023), 5408-5412. <a href="https://pubmed.ncbi.nlm.nih.gov/38022702/" target="_blank">PMID:38022702</a>.</li>
+<li>Elena Real CA+, <b>Mier P+</b>, Sibille N, Andrade-Navarro MA, Bernadó P. Structure-function relationships in protein homorepeats. Curr Opin Struct Biol 83(2023), 102726. <a href="https://pubmed.ncbi.nlm.nih.gov/37924569/" target="_blank">PMID:37924569</a>.</li>
+<li>Monzon AM, Arrias PN, Elofsson A, <b>Mier P</b>, Andrade-Navarro MA, Bevilacqua M, Clementel D, Bateman A, Hirsh L, Fornasari MS, Parisi G, Piovesan D, Kajava AV, Tosatto SCE*. A STRP-ed definition of Structured Tandem Repeats in Proteins. J Struct Biol 215(2023), 108023. <a href="https://pubmed.ncbi.nlm.nih.gov/37652396/" target="_blank">PMID:37652396</a>.</li>
+<li><b>Mier P*</b>, Andrade-Navarro MA. Evolutionary study of protein Short Tandem Repeats in protein families. Biomolecules 13(2023), 1116. <a href="https://pubmed.ncbi.nlm.nih.gov/37509152/" target="_blank">PMID:37509152</a>.</li>
+<li>Schumbera E+, <b>Mier P+</b>, Andrade-Navarro MA*. Phase separating Rho: a widespread regulatory function of disordered regions in proteins revealed in bacteria. Signal Transduction and Targeted Therapy 8(2023), 253. <a href="https://pubmed.ncbi.nlm.nih.gov/37344523/" target="_blank">PMID:37344523</a></i>.</li>
+<li>Erdozain S, Barrionuevo E, Ripoll L, <b>Mier P</b>, Andrade-Navarro MA. Protein repeats evolve and emerge in giant viruses. Journal of Structural Biology 215(2023), 107962. <a href="https://pubmed.ncbi.nlm.nih.gov/37031868/" target="_blank">PMID:37031868</a>.</li>
+									
+<br><b>2022</b><br><br>
+<li>Kastano K, <b>Mier P</b>, Dosztányi Z, Promponas VJ, Andrade-Navarro MA*. Functional tuning of intrinsically disordered regions in human proteins by composition bias. Biomolecules 12(2022), 1486. <a href="https://pubmed.ncbi.nlm.nih.gov/36291695/" target="_blank">PMID:36291695</a>.</i>
+<li><b>Mier P*</b>, Andrade-Navarro MA. Regions with two amino acids in protein sequences: a step forward from homorepeats into the low complexity landscape. Comput Struct Biotechnol J 20(2022), 5516-5523. <a href="https://pubmed.ncbi.nlm.nih.gov/36249567/" target="_blank">PMID:36249567</a>.</i>
+<li><b>Mier P*</b>, Elena-Real C, Cortés J, Bernadó P, Andrade-Navarro MA. The sequence context in poly-Alanine regions: Structure, function and conservation. Bioinformatics 38(2022), 4851-4858. <a href="https://pubmed.ncbi.nlm.nih.gov/36106994/" target="_blank">PMID:36106994</a>.</i>
+<li>Goncalves-Kulik M, <b>Mier P</b>, Kastano K, Cortés J, Bernadó P, Schmid F, Andrade-Navarro MA*. Low complexity induces structure in protein regions predicted as intrinsically disordered. Biomolecules 12(2022), 1098. <a href="https://pubmed.ncbi.nlm.nih.gov/36008992/" target="_blank">PMID:36008992</a>.</i>
+<li>Vagiona AC, <b>Mier P</b>, Petrakis S, Andrade-Navarro MA*. Analysis of Huntington’s disease modifiers using the hyperbolic mapping of the protein interaction network. Int J Mol Sci 10(2022), 5853. <a href="https://pubmed.ncbi.nlm.nih.gov/35628660/" target="_blank">PMID:35628660</a>.</li>								
+<li><b>Mier P*</b>, Fontaine JF, Stoldt M, Libbrecht R, Martelli C, Foitzik S, Andrade-Navarro MA. Annotation and analysis of 3902 odorant receptor protein sequences from 21 insect species provide insights into the evolution of odorant receptor gene families in solitary and social insects. Genes 13(2022), 919. <a href="https://pubmed.ncbi.nlm.nih.gov/35627304/" target="_blank">PMID:35627304</a>.</li>
+<li><b>Mier P*</b> and Andrade-Navarro MA. PolyX2: fast detection of homorepeats in large protein datasets. Genes 13(2022), 758. <a href="https://pubmed.ncbi.nlm.nih.gov/35627143/" target="_blank">PMID:35627143</a>.</li>
+									
+<br><b>2021</b><br><br>
+<li><b>Mier P*</b> and Andrade-Navarro MA. Between Interactions and Aggregates: The PolyQ Balance. Genome Biology and Evolution 13(2021), evab246. <a href="https://pubmed.ncbi.nlm.nih.gov/34791220/" target="_blank">PMID:34791220</a>.</li>
+<li>Kamel M, Kastano, <b>Mier P</b>, Andrade-Navarro MA*. REP2: a web server to detect common tandem repeats in protein sequences. Journal of Molecular Biology 433(2021), 166895. <a href="https://pubmed.ncbi.nlm.nih.gov/33972020/" target="_blank">PMID:33972020</a>.</li>
+<li><b>Mier P*</b> and Andrade-Navarro MA. The conservation of low complexity regions in bacterial proteins depends on the pathogenicity of the strain and subcellular location of the protein. Genes 12(2021), 451. <a href="https://pubmed.ncbi.nlm.nih.gov/33809982/" target="_blank">PMID:33809982</a>.</li>
+<li><b>Mier P*</b> and Andrade-Navarro MA. Avoided Motifs: short amino acid strings missing from protein datasets. Biological Chemistry 402(2021), 945-951. </b><a href="https://pubmed.ncbi.nlm.nih.gov/33660494/" target="_blank">PMID:33660494</a>.</li>
+<li>Kastano K, <b>Mier P</b>, Andrade-Navarro MA*. The role of low complexity regions in protein interaction modes: an illustration in Huntingtin. International Journal of Molecular Sciences 22(2021), 1727. <a href="https://pubmed.ncbi.nlm.nih.gov/33572172/" target="_blank">PMID:33572172</a>.</li>
+										
+<br><b>2020</b><br><br>
+<li><b>Mier P*</b> and Andrade-Navarro MA. Assessing the low complexity of protein sequences via the low complexity triangle. PLoS ONE (2020). doi: 10.1371/journal.pone.0239154. <a href="https://pubmed.ncbi.nlm.nih.gov/33378336/" target="_blank">PMID:33378336</a>.</li>
+<li>Rubio A, <b>Mier P</b>, Andrade-Navarro MA, Garzón A, Jiménez J, Pérez-Pulido AJ*. CRISPR sequences are sometimes erroneously translated and can contaminate public databases with spurious proteins containing spaced repeats. Database (2020). doi: 10.1093/database/baaa088. <a href="https://pubmed.ncbi.nlm.nih.gov/33206958/" target="_blank">PMID:33206958</a>.</li>
+<li>Kastano K, Erdős G, <b>Mier P</b>, Alanis-Lobato G, Promponas VJ, Dosztányi Z, Andrade-Navarro MA*. Evolutionary study of disorder in protein sequences. Biomolecules 10(2020), 1413. <a href="https://pubmed.ncbi.nlm.nih.gov/33036302/" target="_blank">PMID:33036302</a>.</li>										
+<li>Paladin L, Necci M, Piovesan D, <b>Mier P</b>, Andrade-Navarro MA, Tosatto SCE*. A novel approach to investigate the evolution of structured tandem repeat protein families by exon duplication. J Struct Biol 212(2020), 107608. <a href="https://pubmed.ncbi.nlm.nih.gov/32896658/" target="_blank">PMID:32896658</a>.</li>
+<li><b>Mier P*</b> and Andrade-Navarro MA. The features of polyglutamine regions depend on their evolutionary stability. BMC Evol Biol 20(2020), 59. <a href="https://pubmed.ncbi.nlm.nih.gov/32448113/" target="_blank">PMID:32448113</a>.</li>
+<li><b>Mier P*</b> and Andrade-Navarro MA. MAGA: A Supervised Method to Detect Motifs From Annotated Groups in Alignments. Evol Bioinform Online 16(2020). <a href="https://pubmed.ncbi.nlm.nih.gov/32425492/" target="_blank">PMID:32425492</a>.</li>
+<li>Jarnot P, Ziemska-Legiecka J, Dobson L, Merski M, <b>Mier P</b>, Andrade-Navarro M.A., Hancock J.M., Dosztanyi Z, Paladin L, Necci M, Piovesan D, Tosatto S.C.E., Promponas V.J., Grynberg M., Gruca A*. PlaToLoCo: the first web meta-server for visualization and annotation of low complexity regions in proteins. Nucleic Acids Res 48(2020), W77-W84. <a href="https://pubmed.ncbi.nlm.nih.gov/32421769/" target="_blank">PMID:32421769</a>.</li>
+<li>Urbanek A, Popovic K, Morató A, Estaña A, Elena-Real CA, <b>Mier P</b>, Fournet A, Allemand F, Delbecq S, Andrade-Navarro MA, Cortés J, Sibille N, Bernadó P*. Flanking Regions Determine the Structure of the Poly-Glutamine in Huntingtin through Mechanisms Common among Glutamine-Rich Human Proteins. Structure 28(2020), 733-746. <a href="https://pubmed.ncbi.nlm.nih.gov/32402249/" target="_blank">PMID:32402249</a>.</li>
+<li>Leismann J, Spagnuolo M, Pradhan M, Wacheul L, Vu MA, Musheev M, <b>Mier P</b>, Andrade-Navarro MA, Graille M, Niehrs C, Lafontaine DL, Roignant JY*. The 18S ribosomal RNA m6A methyltransferase Mettl5 is required for normal walking behavior in Drosophila. EMBO Rep 21(2020), e49443. <a href="https://pubmed.ncbi.nlm.nih.gov/32350990/" target="_blank">PMID:32350990</a>.</li>
+<li><b>Mier P</b>, Elena Real C, Urbanek A, Bernadó P, Andrade-Navarro MA*. The importance of definitions in the study of polyQ regions: a tale of thresholds, impurities and sequence context. Comput Struct Biotechnol J 18(2020), 306-313. <a href="https://pubmed.ncbi.nlm.nih.gov/32071707/" target="_blank">PMID:32071707</a>.</li>
+<li><b>Mier P*</b>, Paladin L, Tamana S, Petrosian S, Hajdu-Soltész B, Urbanek A, Gruca A, Plewczynski D, Grynberg M,  Bernadó P, Gáspári Z, Ouzounis C, Promponas VJ, Kajava AV, Hancock JM, Tosatto SCE, Dosztanyi Z, Andrade-Navarro MA. Disentangling the complexity of low complexity proteins. Brief Bioinform 21(2020), 458-472. <a href="https://pubmed.ncbi.nlm.nih.gov/30698641/" target="_blank">PMID:30698641</a>.</li>
+										
+<br><b>2019</b><br><br>
+<li>Tørresen OK, Star B, <b>Mier P</b>, Andrade-Navarro MA, Bateman A, Jarnot P, Gruca A, Grynberg M, Kajava AV, Promponas VJ, Anisimova M, Jakobsen KS, Linke D*. Tandem repeats lead to sequence assembly errors and impose multi-level challenges for genome and protein databases. Nucleic Acids Res 47(2019), 10994-11006. <a href="https://pubmed.ncbi.nlm.nih.gov/31584084/" target="_blank">PMID:31584084</a>.</li>
+<li>Brown P, <b>RELISH Consortium</b>, Zhou Y*. Large expert-curated database for benchmarking document similarity detection in biomedical literature search. Database (2019), 1-67. <a href="https://pubmed.ncbi.nlm.nih.gov/33326193/" target="_blank">PMID:33326193</a>.</li>
+<li>Kamel M, <b>Mier P</b>, Tari A, Andrade-Navarro MA*. Repeatability in protein sequences. J Struct Biol 208(2019), 86-91. <a href="https://pubmed.ncbi.nlm.nih.gov/31408700/" target="_blank">PMID:31408700</a>.</li>
+<li>Rubio A, Casimiro-Soriguer CS, <b>Mier P</b>, Andrade-Navarro MA, Garzón A, Jiménez J, Pérez-Pulido AJ*. AnABlast, re-searching for protein-coding sequences in genomic regions. Methods Mol Biol 1962(2019), 207-214. <a href="https://pubmed.ncbi.nlm.nih.gov/31020562/" target="_blank">PMID:31020562</a>. ISBN: 978-1-4939-9172-3.</li>
+<li><b>Mier P*</b> and Andrade-Navarro MA. Traitpedia: a collaborative effort to gather species traits. Bioinformatics 35(2019), 1079-1081. <a href="https://pubmed.ncbi.nlm.nih.gov/30165582/" target="_blank">PMID:30165582</a>.</li>
+<li><b>Mier P*</b> and Andrade-Navarro MA. Toward completion of the Earth’s proteome: an update a decade later. Brief Bioinform 20(2019), 463:470. <a href="https://pubmed.ncbi.nlm.nih.gov/29040399/" target="_blank">PMID:29040399</a>.</li>
+								
+<br><b>2018</b><br><br>
+<li><b>Mier P*</b>, Pérez-Pulido AJ, Andrade-Navarro MA. Automated selection of homologs to track the evolutionary history of proteins. BMC Bioinform 1(2018), 431. <a href="https://pubmed.ncbi.nlm.nih.gov/30453878/" target="_blank">PMID:30453878</a>.</li>
+<li>Alanis-Lobato G*, <b>Mier P</b>, Andrade-Navarro MA*. The latent geometry of the human protein interaction network. Bioinformatics 34(2018), 2826-2834. <a href="https://pubmed.ncbi.nlm.nih.gov/29635317/" target="_blank">PMID:29635317</a>.</li>
+<li><b>Mier P*</b> and Andrade-Navarro MA. Glutamine codon usage and polyQ evolution in primates depend on the Q stretch length. Genome Biol Evol 10(2018), 816-825. <a href="https://pubmed.ncbi.nlm.nih.gov/29608721/" target="_blank">PMID:29608721</a>.</li>
+<li>Brüne D, Andrade-Navarro MA, <b>Mier P*</b>. Proteome-wide comparison between the amino acid composition of domains and linkers. BMC Res Notes 11(2018). <a href="https://pubmed.ncbi.nlm.nih.gov/29426365/" target="_blank">PMID:29426365</a>.</li>
+								
+<br><b>2017</b><br><br>
+<li>Totzeck F, Andrade-Navarro MA, <b>Mier P*</b>. The Protein Structure Context of PolyQ Regions. PLoS ONE 12(2017): e0170801. <a href="https://pubmed.ncbi.nlm.nih.gov/28125688/" target="_blank">PMID:28125688</a>.</li>
+<li><b>Mier P*</b>, Alanis-Lobato G, Andrade-Navarro MA. Context characterization of amino acid homorepeats using evolution, position, and order. Proteins: Structure, Function and Bioinformatics 85(2017), 709-719. <a href="https://pubmed.ncbi.nlm.nih.gov/28097686/" target="_blank">PMID:28097686</a>.</li>
+<li><b>Mier P*</b>, Pérez-Pulido AJ, Reynaud EG, Andrade-Navarro MA. Reading the Evolution of Compartmentalization in the Ribosome Assembly Toolbox: The YRG Protein Family. PLoS ONE 12(2017): e0169750. <a href="https://pubmed.ncbi.nlm.nih.gov/28072865/" target="_blank">PMID:28072865</a>.</li>
+<li><b>Mier P*</b> and Andrade-Navarro MA. dAPE: a web server to detect homorepeats and follow their evolution. Bioinformatics 33(2017), 1221-1223. <a href="https://pubmed.ncbi.nlm.nih.gov/28031183/" target="_blank">PMID:28031183</a>.</li>
+<li><b>Mier P*</b>, Alanis-Lobato G, Andrade-Navarro MA. Protein-protein interactions can be predicted using coiled coil co-evolution patterns. Journal of Theoretical Biology 412(2017), 198-203. <a href="https://pubmed.ncbi.nlm.nih.gov/27832945/" target="_blank">PMID:27832945</a>.</li>
+								
+<br><b>2016</b><br><br>
+<li>Alanis-Lobato G*, <b>Mier P</b>, Andrade-Navarro MA. Manifold learning and maximum likelihood estimation for hyperbolic network embedding. Applied Network Science 1(2016). <a href="https://pubmed.ncbi.nlm.nih.gov/30533502/" target="_blank">PMID:30533502</a>.</li>
+<li>Alanis-Lobato G*, <b>Mier P</b>, Andrade-Navarro MA. Efficient embedding of complex networks to hyperbolic space via their Laplacian. Scientific Reports 6(2016). <a href="https://pubmed.ncbi.nlm.nih.gov/27445157/" target="_blank">PMID:27445157</a>.</li>
+<li><b>Mier P*</b> and Andrade-Navarro MA. CABRA: Cluster and Annotate Blast Results Algorithm. BMC Res Notes 9(2016). <a href="https://pubmed.ncbi.nlm.nih.gov/27129717/" target="_blank">PMID:27129717</a>.</li>
+<li><b>Mier P*</b> and Andrade-Navarro MA. FastaHerder2: Four Ways to Research Protein Function and Evolution with Clustering and Clustered Databases. Journal of Computational Biology 23(2016), 270-278. <a href="https://pubmed.ncbi.nlm.nih.gov/26828375/" target="_blank">PMID:26828375</a>.</li>
+								
+<br><b>2015</b><br><br>
+<li><b>Mier P</b>, Andrade-Navarro MA, Pérez-Pulido AJ*. orthoFind Facilitates the Discovery of Homologous and Orthologous Proteins. PLoS ONE 10(2015): e0143906. <a href="https://pubmed.ncbi.nlm.nih.gov/26624019/" target="_blank">PMID:26624019</a>.</li>
+							
+<br><b>2012</b><br><br>
+<li>Muñoz-Centeno MC, Martín-Guevara C, Flores A, Pérez-Pulido A, Antúnez-Rodríguez C, Castillo A, Sánchez-Durán M, <b>Mier P</b>, Bejarano E*. Mpg2 interacts and cooperates with Mpg1 to maintain yeast glycosylation. FEMS Yeast Research 12(2012), 511-520. <a href="https://pubmed.ncbi.nlm.nih.gov/22416758/" target="_blank">PMID:22416758</a>.</li>
+<li><b>Mier P</b>, Pérez-Pulido AJ*. Fungal Smn and Spf30 homologues are mainly present in filamentous fungi and genomes with many introns: Implications for Spinal Muscular Atrophy. Gene 491(2012), 135-141. <a href="https://pubmed.ncbi.nlm.nih.gov/22020225/" target="_blank">PMID:22020225</a>.</li>
+</ol>
+
+<h3>(Co-)/Organization of scientific events</h3>
+<ul>
+	<li><a href="https://cbdm.uni-mainz.de/ccb2020/" target="_blank">4th Challenges in Computational Biology Meeting: Single Cell Data Analysis</a>. Virtual meeting. 18 September 2020.</li>
+	<li><a href="https://refract-rise.eu/events/mainz19" target="_blank">REFRACT Kick-off Meeting and Tandem Repeat Proteins Symposium</a>. Johannes Gutenberg University (Mainz, Germany). 4-8 February 2019.</li>
+	<li><a href="http://cbdm-01.zdv.uni-mainz.de/~munoz/lcw/" target="_blank">2nd NGP-net Hackathon on Low Complexity Regions in Proteins</a>. IMB (Mainz, Germany). 28-29 November 2016.</li>
+	<li><a href="https://www.parqueciencias.com/historico/genetica-y-bioinformatica-jugando-con-las-letras-de-los-genomas-para-entender-las-enfermedades-humanas-2-3/" target="_blank">Temporary exposition "Genetics and Bioinformatics: playing with the letters of a genome to understand human illnesses"</a>. Parque de las Ciencias, Granada (Spain). September-November 2011.</li>
+</ul>
+
+<h3>Editorial work</h3>
+<ul>
+	<li>Editorial Board Member of journal <a href="https://bmcmethods.biomedcentral.com/" target="_blank">BMC Methods</a>. ISSN 3004-8729, June 2024 – current.</li>
+	<li>Editorial Board Member of journal <a href="https://bmcbioinformatics.biomedcentral.com/" target="_blank">BMC Bioinformatics</a>. ISSN 1471-2105, March 2024 – June 2024.</li>	
+	<li>Guest Editor of Special Issue <a href="https://www.mdpi.com/journal/biomolecules/special_issues/4NZO697MZ9" target="_blank">Bioinformatics in Protein Evolution</a>, in journal <a href="https://www.mdpi.com/journal/biomolecules" target="_blank">Biomolecules</a>. ISSN 2218-273X, June 2023.</li>	
+	<li>Reviewer Board Member of journal <a href="https://www.mdpi.com/journal/biotech" target="_blank">BioTech</a>. ISSN 2673-6284, June 2022 – current.</li>	
+	<li>Associate editor of number 2 of journal <a href="https://www.upo.es/revistas/index.php/biosaia" target="_blank">Biosaia</a>. ISSN 2254-3821, April 2013.</li>
+</ul>		
+
+<h3>Teaching</h3>
+<ul>
+	<li><b>[2024-2025] Professor of “Biology”</b>. Bachelor degree: Environmental Sciences. Universidad Pablo de Olavide (Seville, Spain).</li>
+	<li><b>[2024-2025] Professor of “Bioinformatics”</b>. Bachelor degree: Biotechnology. Universidad Pablo de Olavide (Seville, Spain).</li>
+	<li><b>[2015-2024] Support for teaching of protein bioinformatics</b>. Johannes Gutenberg University (Mainz, Germany).</li>	
+	<li><b>[2019-2024] Professor of subject “Linux operating system and high-performance computing”</b>. Postgraduate course “Diploma of Specialization in Bioinformatics Analysis”. Universidad Pablo de Olavide (Seville, Spain).</li>	
+	<li><b>[2015-2017, 2019-2024] Professor of subject “Handling molecular sequences”</b>. Postgraduate course “Diploma of Specialization in Bioinformatics Analysis”. Universidad Pablo de Olavide (Seville, Spain).</li>	
+	<li><b>[2015-2017] Professor of subject “Gene functional annotation and biological enrichment”</b>. Postgraduate course “Diploma of Specialization in Bioinformatics Analysis”. Universidad Pablo de Olavide (Seville, Spain).</li>
+	<li><b>[2011-2013] Professor of “Bioinformatics”</b>. Bachelor degree: Biotechnology. Universidad Pablo de Olavide (Seville, Spain).</li>
+</ul>		
+					
+<h3>Education</h3>
+<ul>
+	<li><b>[2020] Entry-Level Python Programmer</b>, certified by the Python Institute. Exam Version: PCEP-30-01 [NP]. <a href="https://verify.openedg.org/?id=Lyy0.65QU.WTze" target="_blank">Digital certification</a>.</li>
+	<li><b>[2013-2014] PhD in “Bioinformatics in Biotechnology and Biomedicine”</b>. Dissertation title: “Development of 	biocomputing protocols and tools for the search of orthologous proteins and its application in evolutionary analyses”.</li>
+	<li><b>[2011-2013] M.Sc. degree in “Health Biotechnology”</b>. Universidad Pablo de Olavide (Seville, Spain). Grades: 9.3/10. </li>
+	<li><b>[2006-2011] B.Sc. degree in "Biotechnology"</b>. Universidad Pablo de Olavide (Seville, Spain). Grades: 8.23/10.</li>
+</ul>
+
+<h3>Languages</h3>
+<img src="./images/perl.png" height="25" width="80"/> (advanced), <img src="./images/html.png" height="50" width="66"/> (medium), <img src="./images/R.jpeg" height="30" width="50"/> (basic), <img src="./images/python.png" height="45" width="150"/> (basic)<br><br>
+<img src="./images/spain.png" height="35" width="50"/>
+<img src="./images/english.png" height="35" width="50"/>
+<img src="./images/germany.png" height="35" width="50"/><br><br>
+								
+										<br>
+                		<div class="banner"><img src="./images/banner2.png" alt="banner" id="banner"></div>               
+                </section>
+                
+            </main>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 LCE Group</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
